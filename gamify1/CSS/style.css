@@ -1,0 +1,178 @@
+*
+{
+	font-family: "Montserrat",sans-serif;
+	text-align: center;
+	background-color: transparent;
+}
+
+
+.container-fluid
+{
+	padding: 2% 7%;
+	position: relative;
+}
+
+
+.navbar-brand
+{
+	font-size: 2.5rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+
+.nav-item
+{
+	padding: 0 18px;
+	font-size: 1.2rem;
+	font-family: "Montserrat-light";
+}
+
+#navlink, #brand{
+	color : black;
+}
+
+.navbar-toggler-icon {
+	background-color: black;
+}
+
+/* HOME */
+.big-heading
+{
+	font-family: 'Montserrat-Black', sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+	margin: 1rem;
+}
+
+#short-intro {
+	font-size: 1rem;
+	color :  #A2B29F;
+	font-weight: 300;
+	margin: 2rem;
+}
+
+.student-pic {
+	width: 60%;
+	position: absolute;
+	right: 10%;
+	top :  -15%;
+}
+
+.engineering-team-pic {
+	width: 10%;
+	position: absolute;
+	left :  12%;
+	top :  70%;
+}
+
+.exp {
+	size: 1rem;
+}
+.start-button
+{
+	margin: 7% 0 7% 0;
+	background-color: #00bfa6;
+	
+}
+
+.start-button a {
+	color: white;
+}
+
+
+/*ongoing courses*/
+
+.ongoing-course {
+	margin-top :  1rem;
+}
+
+.ongoing-course .row{
+    column-gap: 50px;
+}
+
+
+/*Web dev*/
+#Web-development
+{
+	margin-top :  1rem;
+	background-color: #AFFDF3;
+}
+
+.card
+{
+	border: none;
+}
+
+.card-title
+{
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+
+.card-text
+{
+	margin-bottom: 12px;
+}
+
+.card-img-top
+{
+	height: 200px;
+	object-fit: cover;
+}
+
+.fa-chevron-right
+{
+	padding-left: 10px;
+    bottom: 4px;
+}
+
+.row {
+	margin-top : 3rem;
+}
+/*html course*/
+
+.html-course .list-group-item{
+	padding :  2rem;
+	background-color: #A0F3E8;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 1.4rem;
+	box-shadow: -12px 38px 97px -17px rgba(29,61,57,0.75);
+   -webkit-box-shadow: -12px 38px 97px -17px rgba(29,61,57,0.75);
+    -moz-box-shadow: -12px 38px 97px -17px rgba(29,61,57,0.75);
+}
+
+.html-course .list-group-item a {
+	color: black;
+}
+/* FOOTER */
+#footer
+{
+   padding: 7% 1%;
+   background-color: #00bfa6;
+   margin-top: 10%;
+}
+
+
+
+@media (max-width: 1124px)
+{
+	.student-pic
+	{
+		position: static;
+		width : 30%;
+	}
+
+	.engineering-team-pic {
+	width: 10%;
+	position: absolute;
+	left :  27%;
+	top :  55%;
+    }
+
+	#title
+	{
+		text-align: center;
+	}
+}
